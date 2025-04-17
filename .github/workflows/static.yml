@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Fusion - Your Trendy Clothing Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-text">
+            <h1>Welcome to Fashion Fusion</h1>
+            <p>Shop the latest trends with exclusive styles</p>
+            <a href="#shop" class="btn">Shop Now</a>
+        </div>
+    </header>
+
+    <!-- Featured Products Section -->
+    <section id="shop" class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="https://via.placeholder.com/250" alt="Product 1">
+                <h3>Stylish Jacket</h3>
+                <p>$99.99</p>
+                <a href="#">Add to Cart</a>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/250" alt="Product 2">
+                <h3>Summer Dress</h3>
+                <p>$49.99</p>
+                <a href="#">Add to Cart</a>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/250" alt="Product 3">
+                <h3>Cool Sneakers</h3>
+                <p>$79.99</p>
+                <a href="#">Add to Cart</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At Fashion Fusion, we believe in bringing you the best styles to make sure you always look your best. Our clothing is trendy, comfortable, and affordable. We're here to bring you the latest fashion trends!</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have any questions? Reach out to us!</p>
+        <form>
+            <input type="email" placeholder="Your email" required>
+            <textarea placeholder="Your message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Fashion Fusion. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>
+
